@@ -19,7 +19,7 @@
 
             while (index < numbers.Length)
             {
-                total += numbers[index];
+                total -= numbers[index];
                 index++;
             }
             return total;
@@ -30,7 +30,7 @@
             int index = 0;
             do
             {
-                total += numbers[index];
+                total *= numbers[index];
                 index++;
             }
             while (index < numbers.Length);
